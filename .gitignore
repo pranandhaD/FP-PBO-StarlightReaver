@@ -17,4 +17,7 @@ obj/
 *.tmp
 
 # Ignore configuration files
-*.config
+*.config/
+
+# But don't ignore dotnet-tools.json
+!.config/dotnet-tools.json
